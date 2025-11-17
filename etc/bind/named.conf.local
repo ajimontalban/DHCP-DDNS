@@ -1,0 +1,5 @@
+zone "jmonsan.asir" IN {
+	type primary;
+	file "/etc/bind/jmonsan.asir.zone";
+	allow-update { none; };
+};

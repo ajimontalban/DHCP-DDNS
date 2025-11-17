@@ -1,0 +1,15 @@
+$ORIGIN jmonsan.asir.
+$TTL 2h
+
+@	SOA	ns1 hostmaster (
+		2025111700	; Serial
+		1m		; Refresh
+		1m		; Retry
+		1m		; Expire
+		1m )		; Negative Cache TTL
+
+	NS	ns1
+	NS	ns2
+@	A	192.168.1.1
+ns1	A	192.168.1.1
+ns2	A	192.168.1.2
